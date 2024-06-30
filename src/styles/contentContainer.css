@@ -1,0 +1,73 @@
+/* src/ContentContainer.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.content-container {
+    position: relative;
+    background-color: white;
+    border: 5px double black;
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    /* Set text color to black */
+    max-width: 90%;
+    /* Ensure the container fits within the screen */
+    margin: 20px auto;
+    /* Center the container with a margin of 20px */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+.corner {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../../public/pokeball-small-modified.png');
+    background-size: cover;
+}
+
+.top-left {
+    top: -15px;
+    left: -15px;
+}
+
+.top-right {
+    top: -15px;
+    right: -15px;
+}
+
+.bottom-left {
+    bottom: -15px;
+    left: -15px;
+}
+
+.bottom-right {
+    bottom: -15px;
+    right: -15px;
+}
+
+p {
+    word-wrap: break-word;
+    /* This ensures long words wrap and don't overflow */
+    overflow-wrap: break-word;
+    /* This is an alias for word-wrap for better browser support */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .content-container {
+        padding: 10px;
+        /* Reduce padding */
+        max-width: 85%;
+        /* Keep the container within 90% of the screen width */
+        margin: 20px auto;
+        /* Adjust margin to 16px for mobile view */
+    }
+
+    .corner {
+        width: 20px;
+        /* Reduce the size of the corner images */
+        height: 20px;
+    }
+
+}
