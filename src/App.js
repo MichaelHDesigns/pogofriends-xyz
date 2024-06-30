@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Navigate, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import logo from './header.png';
@@ -17,9 +17,12 @@ function App() {
           <NavBar />
           <img src={logo} className="App-logo" alt="logo" />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/friends" element={<Friends />} />
             <Route path="/showcase" element={<Showcase />} />
+            {/* <Route path="*">
+              <Navigate to="/" />
+            </Route> */}
           </Routes>
         </main>
       </div>
