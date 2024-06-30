@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/pogofriends-xyz/static/css/main.a6fdecdf.css",
+    "main.js": "/pogofriends-xyz/static/js/main.450a04de.js",
+    "static/js/453.55fd40e6.chunk.js": "/pogofriends-xyz/static/js/453.55fd40e6.chunk.js",
+    "static/media/telegram.png": "/pogofriends-xyz/static/media/telegram.bef4b0e99d9ee8d705ef.png",
+    "static/media/header.png": "/pogofriends-xyz/static/media/header.f58e1bfba2b52a3bae03.png",
+    "static/media/pumpfun.jpg": "/pogofriends-xyz/static/media/pumpfun.16f1fffd6c928ca9c9e5.jpg",
+    "index.html": "/pogofriends-xyz/index.html",
+    "main.a6fdecdf.css.map": "/pogofriends-xyz/static/css/main.a6fdecdf.css.map",
+    "main.450a04de.js.map": "/pogofriends-xyz/static/js/main.450a04de.js.map",
+    "453.55fd40e6.chunk.js.map": "/pogofriends-xyz/static/js/453.55fd40e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6fdecdf.css",
+    "static/js/main.450a04de.js"
+  ]
+}
