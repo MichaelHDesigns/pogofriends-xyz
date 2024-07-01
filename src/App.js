@@ -20,9 +20,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/friends" element={<Friends />} />
             <Route path="/showcase" element={<Showcase />} />
-            {/* <Route path="*">
-              <Navigate to="/" />
-            </Route> */}
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
       </div>

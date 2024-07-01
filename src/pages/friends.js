@@ -5,7 +5,7 @@ import { Tweet } from 'react-tweet';
 import '../styles/contentPage.css';
 
 const Friends = () => (
-    <main>
+    <main className='body-container'>
         <ContentContainer>
             <h1>Friends</h1>
             <p>Welcome to the Friends page. Head over to our Trainer Codes tweet to add yours and make some new friends.</p>
